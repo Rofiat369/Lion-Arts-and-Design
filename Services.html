@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lion Arts and Designs</title>
+    <link rel="stylesheet" media="screen" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/64b6e74906.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="logos/Zenge Logo.PNG" alt="logo" class="logo" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="openMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h2 id="services-text">Our Services</h2>
+      </div>
+    </section>
+
+    <!--Products We Offer-->
+    <section class="products">
+      <h1>Services We Offer</h1>
+      <p>What can we do for you?</p>
+
+      <div class="row">
+        <div class="products-col">
+          <img
+            src="Logos/Logos/58EDCE11-2664-43CE-A34C-D533064CF595.JPEG"
+            alt="logo"
+            style="width: 100%"
+          />
+          <div class="layer"><h3>Logo</h3></div>
+        </div>
+        <div class="products-col">
+          <img
+            src="Flyer/Flyer/8B976D75-4C7E-45A6-8F29-175EBD8D067E.JPEG"
+            alt="flyer"
+            style="width: 100%"
+          />
+          <div class="layer"><h3>Flyer</h3></div>
+        </div>
+        <div class="products-col">
+          <img
+            src="Business Cards/Business Cards/D9DA4864-8C8D-49A8-B5A9-26721CB53D74.JPEG"
+            alt="Business Cards"
+            style="width: 100%"
+          />
+          <div class="layer"><h3>Business Card</h3></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="products-col two">
+          <img
+            src="Album art/Album art/BC6631B3-03B7-4EE1-9A7A-0E5AC4169FA2.JPEG"
+            alt="Business Cards"
+            style="width: 100%"
+          />
+          <div class="layer"><h3>Album Cover</h3></div>
+        </div>
+        <div class="products-col two">
+          <img
+            src="Business Cards/Business Cards/D9DA4864-8C8D-49A8-B5A9-26721CB53D74.JPEG"
+            alt="Business Cards"
+            style="width: 100%"
+          />
+          <div class="layer"><h3>Business Card</h3></div>
+        </div>
+      </div>
+    </section>
+    <!--Reviews-->
+    <section class="review">
+      <h1>What Our Customers Says</h1>
+      <p>What can we do for you?</p>
+
+      <div class="row">
+        <div class="review-col">
+          <img src="logos/Logos/FCEDEEEC-7185-49C5-8CD9-1866E42D7544.JPEG" />
+          <div>
+            <p>
+              The Service was Fast and up to standard. He listened to my
+              concerns and helped me come to a decision as to what would be
+              best. Thank You!
+            </p>
+            <h3>Rofiat Olusanya</h3>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="review-col">
+          <img src="logos/Logos/1BB57B77-885E-441B-BA4C-C441B92B40C9.JPEG" />
+          <div>
+            <p>
+              The Service was Fast and up to standard. He listened to my
+              concerns and helped me come to a decision as to what would be
+              best. Thank You!
+            </p>
+            <h3>Yeriye</h3>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        We are a company that believe in the power of design as an <br />
+        image representative for your company, album, flyers and business cards.
+        <br />We work hard, so that your image can continuosly speak for you
+        when you are not available.
+      </p>
+      <div class="icon">
+        <a href="https://twitter.com/lion_zenge" target="_blank">
+          <i class="fab fa-twitter"></i
+        ></a>
+        <i class="fab fa-instagram"></i>
+      </div>
+      &copy; Lion Arts and Designs
+    </section>
+
+    <!--JavaScript Menu Toggle-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function openMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

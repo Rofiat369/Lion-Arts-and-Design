@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lion Arts and Designs</title>
+    <link rel="stylesheet" media="screen" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/64b6e74906.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="logos/Zenge Logo.PNG" alt="logo" class="logo" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="openMenu()"></i>
+      </nav>
+      <h1>About US</h1>
+    </section>
+
+    <!--About US Content-->
+    <section class="about-us">
+      <div class="row">
+        <div class="aboutus-col">
+          <h1>LION DESIGNS</h1>
+          <p>
+            We are a company that believe in the power of design as an <br />
+            image representative for your company, album, flyers and business
+            cards.
+            <br />We work hard, so that your image can continuosly speak for you
+            when you are not available.
+          </p>
+          <a href="#" class="hero-btn">Contact Us</a>
+        </div>
+        <div class="aboutus-col">
+          <img src="IMG-20210613-WA0000.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        We are a company that believe in the power of design as an <br />
+        image representative for your company, album, flyers and business cards.
+        <br />We work hard, so that your image can continuosly speak for you
+        when you are not available.
+      </p>
+      <div class="icon">
+        <a href="https://twitter.com/lion_zenge" target="_blank">
+          <i class="fab fa-twitter"></i
+        ></a>
+        <i class="fab fa-instagram"></i>
+      </div>
+      &copy; Lion Arts and Designs
+    </section>
+
+    <!--JavaScript Menu Toggle-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function openMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
