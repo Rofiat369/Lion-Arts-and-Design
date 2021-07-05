@@ -10,12 +10,18 @@
       src="https://kit.fontawesome.com/64b6e74906.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="sub-header">
       <nav>
         <a href="index.html">
-          <img src="logos/Zenge Logo.PNG" alt="logo" class="logo" />
+          <img src="Logos/Logos/mainlogo.PNG" alt="logo" class="logo" />
         </a>
         <div class="nav-links" id="navLinks">
           <i class="fas fa-times" onclick="hideMenu()"></i>
@@ -41,13 +47,39 @@
 
       <div class="row">
         <div class="products-col">
-          <img
-            src="Logos/Logos/58EDCE11-2664-43CE-A34C-D533064CF595.JPEG"
-            alt="logo"
-            style="width: 100%"
-          />
+          <div class="carousel">
+            <div class="carousel-item carousel-item-visible">
+              <img
+                src="Logos/Logos/58EDCE11-2664-43CE-A34C-D533064CF595.JPEG"
+                alt="logo"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Logos/Logos/42B91959-7D9C-46DE-B03B-563031D8AD3C.PNG"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Logos/Logos/280FE763-0B5B-4164-AD5A-7B9E706CEB86.JPEG"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Logos/Logos/30882A4E-446E-4DE1-AA19-C26FDDB50C06.JPEG"
+                alt=""
+              />
+            </div>
+            <div class="carousel-action">
+              <button id="carousel-button-prev" aria-label="prev"><</button>
+              <button id="carousel-button-next" aria-label="next">></button>
+            </div>
+          </div>
           <div class="layer"><h3>Logo</h3></div>
         </div>
+
         <div class="products-col">
           <img
             src="Flyer/Flyer/8B976D75-4C7E-45A6-8F29-175EBD8D067E.JPEG"
@@ -91,7 +123,7 @@
 
       <div class="row">
         <div class="review-col">
-          <img src="logos/Logos/FCEDEEEC-7185-49C5-8CD9-1866E42D7544.JPEG" />
+          <img src="Logos/Logos/FCEDEEEC-7185-49C5-8CD9-1866E42D7544.JPEG" />
           <div>
             <p>
               The Service was Fast and up to standard. He listened to my
@@ -107,7 +139,7 @@
           </div>
         </div>
         <div class="review-col">
-          <img src="logos/Logos/1BB57B77-885E-441B-BA4C-C441B92B40C9.JPEG" />
+          <img src="Logos/Logos/1BB57B77-885E-441B-BA4C-C441B92B40C9.JPEG" />
           <div>
             <p>
               The Service was Fast and up to standard. He listened to my
@@ -125,6 +157,7 @@
       </div>
     </section>
 
+    <hr />
     <!--Footer-->
     <section class="footer">
       <h4>About Us</h4>
@@ -138,22 +171,14 @@
         <a href="https://twitter.com/lion_zenge" target="_blank">
           <i class="fab fa-twitter"></i
         ></a>
-        <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/z.e.n.g.e/" target="_blank">
+          <i class="fab fa-instagram"></i
+        ></a>
       </div>
       &copy; Lion Arts and Designs
     </section>
 
     <!--JavaScript Menu Toggle-->
-    <script>
-      var navLinks = document.getElementById("navLinks");
-
-      function openMenu() {
-        navLinks.style.right = "0";
-      }
-
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
-    </script>
+    <script src="app.js"></script>
   </body>
 </html>

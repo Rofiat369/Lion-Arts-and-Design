@@ -10,12 +10,18 @@
       src="https://kit.fontawesome.com/64b6e74906.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="header">
       <nav>
         <a href="index.html">
-          <img src="logos/Zenge Logo.PNG" alt="logo" class="logo" />
+          <img src="Logos/Logos/mainlogo.PNG" alt="logo" class="logo" />
         </a>
         <div class="nav-links" id="navLinks">
           <i class="fas fa-times" onclick="hideMenu()"></i>
@@ -35,82 +41,11 @@
           When it comes to your image, we do not compromise on peculiarity, that
           is why it always speaks for you.
         </p>
-        <a href="#" class="hero-btn"> Get Design Advice </a>
+        <a href="Contact.html" class="hero-btn"> Get Design Advice </a>
       </div>
     </section>
 
-    <!--Products We Offer-->
-    <section class="products">
-      <h1>Services We Offer</h1>
-      <p>What can we do for you?</p>
-
-      <div class="row">
-        <div class="products-col">
-          <img
-            src="Logos/Logos/58EDCE11-2664-43CE-A34C-D533064CF595.JPEG"
-            alt="logo"
-            style="width: 100%"
-          />
-          <div class="layer"><h3>Logo</h3></div>
-        </div>
-        <div class="products-col">
-          <img
-            src="Flyer/Flyer/8B976D75-4C7E-45A6-8F29-175EBD8D067E.JPEG"
-            alt="flyer"
-            style="width: 100%"
-          />
-          <div class="layer"><h3>Flyer</h3></div>
-        </div>
-        <div class="products-col">
-          <img
-            src="Business Cards/Business Cards/D9DA4864-8C8D-49A8-B5A9-26721CB53D74.JPEG"
-            alt="Business Cards"
-            style="width: 100%"
-          />
-          <div class="layer"><h3>Business Card</h3></div>
-        </div>
-      </div>
-    </section>
-    <!--Reviews-->
-    <section class="review">
-      <h1>What Our Customers Says</h1>
-      <p>What can we do for you?</p>
-
-      <div class="row">
-        <div class="review-col">
-          <img src="logos/Logos/FCEDEEEC-7185-49C5-8CD9-1866E42D7544.JPEG" />
-          <div>
-            <p>
-              The Service was Fast and up to standard. He listened to my
-              concerns and helped me come to a decision as to what would be
-              best. Thank You!
-            </p>
-            <h3>Rofiat Olusanya</h3>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-          </div>
-        </div>
-        <div class="review-col">
-          <img src="logos/Logos/1BB57B77-885E-441B-BA4C-C441B92B40C9.JPEG" />
-          <div>
-            <p>
-              The Service was Fast and up to standard. He listened to my
-              concerns and helped me come to a decision as to what would be
-              best. Thank You!
-            </p>
-            <h3>Yeriye</h3>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-          </div>
-        </div>
-      </div>
-    </section>
+    <hr />
 
     <!--Footer-->
     <section class="footer">
@@ -125,22 +60,14 @@
         <a href="https://twitter.com/lion_zenge" target="_blank">
           <i class="fab fa-twitter"></i
         ></a>
-        <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/z.e.n.g.e/" target="_blank">
+          <i class="fab fa-instagram"></i
+        ></a>
       </div>
       &copy; Lion Arts and Designs
     </section>
 
     <!--JavaScript Menu Toggle-->
-    <script>
-      var navLinks = document.getElementById("navLinks");
-
-      function openMenu() {
-        navLinks.style.right = "0";
-      }
-
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
-    </script>
+    <script src="app.js"></script>
   </body>
 </html>

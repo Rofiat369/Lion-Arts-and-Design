@@ -10,12 +10,18 @@
       src="https://kit.fontawesome.com/64b6e74906.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="sub-header">
       <nav>
         <a href="index.html">
-          <img src="logos/Zenge Logo.PNG" alt="logo" class="logo" />
+          <img src="Logos/Logos/mainlogo.PNG" alt="logo" class="logo" />
         </a>
         <div class="nav-links" id="navLinks">
           <i class="fas fa-times" onclick="hideMenu()"></i>
@@ -53,14 +59,14 @@
           <div>
             <i class="fas fa-phone"></i>
             <span>
-              <h5>+2347069400</h5>
+              <h5>+2347069400566</h5>
               <p>Monday to Saturday, 8AM - 5pm</p>
             </span>
           </div>
           <div>
             <i class="fas fa-envelope"></i>
             <span>
-              <h5>something@email.com</h5>
+              <h5>sonigbokun@gmail.com</h5>
               <p>Email us your questions or concerns</p>
             </span>
           </div>
@@ -92,12 +98,13 @@
               required
             ></textarea>
 
-            <button type="submit" class="hero-btn">Send Message</button>
+            <button type="submit" class="yellow-btn">Send Message</button>
           </form>
         </div>
       </div>
     </section>
 
+    <hr />
     <!--Footer-->
     <section class="footer">
       <h4>About Us</h4>
@@ -111,22 +118,14 @@
         <a href="https://twitter.com/lion_zenge" target="_blank">
           <i class="fab fa-twitter"></i
         ></a>
-        <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/z.e.n.g.e/" target="_blank">
+          <i class="fab fa-instagram"></i
+        ></a>
       </div>
       &copy; Lion Arts and Designs
     </section>
 
     <!--JavaScript Menu Toggle-->
-    <script>
-      var navLinks = document.getElementById("navLinks");
-
-      function openMenu() {
-        navLinks.style.right = "0";
-      }
-
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
-    </script>
+    <script src="app.js"></script>
   </body>
 </html>

@@ -10,12 +10,18 @@
       src="https://kit.fontawesome.com/64b6e74906.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="sub-header">
       <nav>
         <a href="index.html">
-          <img src="logos/Zenge Logo.PNG" alt="logo" class="logo" />
+          <img src="Logos/Logos/mainlogo.PNG" alt="logo" class="logo" />
         </a>
         <div class="nav-links" id="navLinks">
           <i class="fas fa-times" onclick="hideMenu()"></i>
@@ -28,7 +34,10 @@
         </div>
         <i class="fas fa-bars" onclick="openMenu()"></i>
       </nav>
-      <h1>About US</h1>
+
+      <div class="text-box">
+        <h2 id="services-text">About Us</h2>
+      </div>
     </section>
 
     <!--About US Content-->
@@ -37,19 +46,25 @@
         <div class="aboutus-col">
           <h1>LION DESIGNS</h1>
           <p>
-            We are a company that believe in the power of design as an <br />
-            image representative for your company, album, flyers and business
-            cards.
-            <br />We work hard, so that your image can continuosly speak for you
-            when you are not available.
+            Lion Arts and Designs (L.A.D) is a Nigerian digital brand created to
+            serve its clients with state-of-the-art services. Having established
+            clients in Nigeria, US and Canada, our operations have kept us ahead
+            in the art and design industry.
           </p>
-          <a href="#" class="hero-btn">Contact Us</a>
+          <p>
+            A brand built on customer satisfaction and timely delivery. We offer
+            worldwide service delivery from digital content creation to material
+            delivery.
+          </p>
+          <a href="Contact.html" class="hero-btn black-text">Contact Us</a>
         </div>
         <div class="aboutus-col">
           <img src="IMG-20210613-WA0000.jpg" />
         </div>
       </div>
     </section>
+
+    <hr />
 
     <!--Footer-->
     <section class="footer">
@@ -64,22 +79,14 @@
         <a href="https://twitter.com/lion_zenge" target="_blank">
           <i class="fab fa-twitter"></i
         ></a>
-        <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/z.e.n.g.e/" target="_blank">
+          <i class="fab fa-instagram"></i
+        ></a>
       </div>
       &copy; Lion Arts and Designs
     </section>
 
     <!--JavaScript Menu Toggle-->
-    <script>
-      var navLinks = document.getElementById("navLinks");
-
-      function openMenu() {
-        navLinks.style.right = "0";
-      }
-
-      function hideMenu() {
-        navLinks.style.right = "-200px";
-      }
-    </script>
+    <script src="app.js"></script>
   </body>
 </html>
